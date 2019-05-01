@@ -4,9 +4,9 @@ def prime? (n)
   else
   (2..n - 1).each do |i|
     if n % i == 0
-      return false
+      false
     else
-      return true
+      true
     end
   end
 end
