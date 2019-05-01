@@ -1,6 +1,6 @@
 def prime? (n)
-  if n = (1..2)
-    return true
+  if n < 1
+    return false
   else
   (2..n).each do |i|
   n % i == 0
