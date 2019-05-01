@@ -3,9 +3,10 @@ def prime? (n)
     return false
   else
   (2..n - 1).each do |i|
-  return false if n % i == 0
-end
-true
+    if n % i == 0
+      return false
+    else
+      return true
 end
  end
 end
